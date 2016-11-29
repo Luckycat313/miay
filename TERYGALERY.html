@@ -1,0 +1,208 @@
+<!DOCTYPE html5>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<link rel="stylesheet" href="w3.css">
+<link href="favicon.ico" rel="shortcut icon">
+<title>a CAT's page</title>
+
+<!--here begin header-->
+ <link rel="stylesheet" href="HEADER/header bootstrap.min.css">
+  <script src="HEADER/header jquery.min.js"></script>
+  <script src="HEADER/header bootstrap.min.js"></script>
+
+<!--end begin header-->
+
+
+<!--Responsive Top Navigation-->
+<link rel="stylesheet" href="MENU/menu.css">
+  <script src="MENU/menu.js"></script>
+<!--end Responsive Top Navigation-->
+
+
+
+
+
+
+<!--Here begin footer-->
+
+ <link rel="stylesheet" href="FOOTER/footer bootstrap.min.css">
+  <script src="FOOTER/footer jquery.min.js"></script>
+  <script src="FOOTER/footer bootstrap.min.js"></script>
+
+<!--end begin footer-->
+
+
+<body>
+
+<!--here begin header-->
+<div class="container">
+  <div class="jumbotron">
+ 
+      <h1>TERY's CAT<img src="HEADER/cat header.png" alt="cat header" style="width:30%;height:30%;"></h1>
+    <p>Това  Първия Сайт който  правя надявам се да ви хареса. </p>
+</div>
+
+<!--here end header -->	
+
+<!--BANNER-->
+<div class="w3-panel w3-blue w3-card-8 w3-round-xlarge">
+  <img src="BANNER/Leaderboard BANNER.png" alt="commerse" style="width:100%">
+</div>
+
+<!--BANNER-->
+
+	
+
+<!--begin Responsive Top Navigation-->
+<!-- LINKS for the menu-->
+<ul class="topnav" id="myTopnav">
+  <li><a class="active" href="TERYHOME.html">НАЧАЛО</a></li>
+  <li><a href="TERYSTORY.html">ИСТОРИЯ</a></li>
+  <li><a href="TERYGALERY.html">ГАЛЕРИЯ</a></li>
+  <li><a href="TERYVIDEO.html">ВИДЕО</a></li>
+  <li><a href="TERYABOUT US.html">ЗА НАС</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
+<!-- LINKS for the menu-->
+
+
+<!--end Responsive Top Navigation-->
+<!-- here begin modal gallery-->
+
+
+<div class="w3-container">
+  <h2>Image Gallery</h2>
+  <p>Click on the images to display them in full size.</p>
+</div>
+
+<div class="w3-row-padding">
+  <div class="w3-container w3-third w3-margin-bottom">
+    <img src="GALERY IMAGES/cat_british_white_muzzle_887_3840x2400.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third w3-margin-bottom">
+    <img src="GALERY IMAGES/cat_briton_gray_eyes_british_look_89876_3840x2400.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third w3-margin-bottom">
+    <img src="GALERY IMAGES/cat_face_furry_striped_97082_3840x2400.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-hover-red w3-text-white w3-xxlarge w3-container w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:100%">
+  </div>
+</div>
+
+<div class="w3-row-padding">
+  <div class="w3-container w3-third w3-margin-bottom">
+    <img src="GALERY IMAGES/cat_fluffy_face_eyes_91884_3840x2400.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third w3-margin-bottom">
+    <img src="GALERY IMAGES/cat_kitten_sleep_couple_affection_baby_65417_3840x2400.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third w3-margin-bottom">
+    <img src="GALERY IMAGES/cat_lying_kitten_playful_91882_3840x2400.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-hover-red w3-text-white w3-xxlarge w3-container w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:100%">
+  </div>
+</div>
+
+
+
+<div class="w3-row-padding">
+  <div class="w3-container w3-third w3-margin-bottom">
+    <img src="GALERY IMAGES/cat_maine_coon_fluffy_93064_3840x2400.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third w3-margin-bottom">
+    <img src="GALERY IMAGES/cat_muzzle_eyes_mustache_81681_3840x2400.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third w3-margin-bottom">
+    <img src="GALERY IMAGES/cat_muzzle_thick_fluffy_85811_3840x2400.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-hover-red w3-text-white w3-xxlarge w3-container w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:100%">
+  </div>
+</div>
+
+
+<div class="w3-row-padding">
+  <div class="w3-container w3-third w3-margin-bottom">
+    <img src="GALERY IMAGES/cat_muzzle_whiskers_eyes_blurring_94530_3840x2400.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third w3-margin-bottom">
+    <img src="GALERY IMAGES/cat_siamese_blue_eyes_muzzle_beautiful_close-up_16806_3840x2400.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third w3-margin-bottom">
+    <img src="GALERY IMAGES/cat_snow_sit_fear_91605_3840x2400.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-hover-red w3-text-white w3-xxlarge w3-container w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:100%">
+  </div>
+</div>
+
+
+
+
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+            
+
+
+
+<!-- here end modal gallery-->
+<!--Here begin footer-->
+
+<div class="container">
+  <h2>Some Info</h2>
+  <div class="panel panel-default">
+    <div class="panel-heading"> </div>
+    <div class="panel-body">Exclusive <br>DeSing By <br> LuckyDancho</div>
+    <div class="panel-footer"> </div>
+  </div>
+</div>
+<!--end begin footer-->
+
+
+</body>
+</html>
+	
+	
+
+
+
+
